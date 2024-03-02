@@ -1,0 +1,80 @@
+/* Contact us Css */
+
+@import url('https //fonts.googleapis.com/css family=poppins');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', 'Segoe UI', sans-serif;
+}
+
+body {
+    background-image: url(../Images/other/background\ Image.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+/* Box css */
+.container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container form {
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    border: 5px solid black;
+    border-radius: 15px;
+    background-color: #cfe5fc;
+}
+
+/* yes img */
+.Yes-img {
+    margin-top: 15px;
+    margin-left: 41%;
+    width: 90px;
+    height: 90px;
+}
+
+/* h1 css */
+.container form h1 {
+    color: rgb(118, 43, 43);
+    font-weight: 700;
+    margin-top: 10px;
+    text-align: center;
+}
+
+/* h2 css */
+.container form h2 {
+    color: #000000;
+    font-weight: 600;
+    margin-top: 15px;
+    text-align: center;
+}
+
+/* button css */
+.button-div {
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.button {
+    color: black;
+    background-color: gold;
+    font-size: 23px;
+    font-weight: 700;
+    border: 2px solid black;
+    box-shadow: black 6px 6px 2px 0px;
+}
+
+.button:hover {
+    color: gold;
+    background-color: black;
+}
